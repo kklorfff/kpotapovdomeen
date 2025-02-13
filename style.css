@@ -1,0 +1,57 @@
+body {
+    font-family: 'Wix Madefor Display', serif;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb {
+    justify-content: space-between;
+}
+
+.breadcrumb-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.active-item .circle {
+    border: 3px solid #0940BF;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid #3A5859;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.circle p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.active-item {
+    color: #0940BF;
+}
+
+.active-item .step-header {
+    font-weight: 900;
+}
+
+.step-header {
+    font-weight: bold;
+}
+
+.step-paragraph {
+    font-weight: normal;
+}
+
+.step-text {
+    text-align: left;
+}
