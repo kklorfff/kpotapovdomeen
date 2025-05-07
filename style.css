@@ -1,106 +1,108 @@
-body {
+    body {
     font-family: "Wix Madefor Display", serif;
     justify-content: center;
-}
+    width: 95%;
+    }
 
-p {
+    p {
     margin: 0;
     padding: 0;
-}
+    }
 
-.breadcrumb {
+    .breadcrumb {
     justify-content: space-between;
     margin: 50px auto;
-}
+    }
 
-.breadcrumb-item {
+    .breadcrumb-item {
     display: flex;
     flex-direction: row;
     align-items: center;  
     color: #3A5859;
-}
+    }
 
-.active-item .circle {
+    .active-item .circle {
     border: 1px solid #0940BF;
-}
+    }
 
-.circle {
+    .circle {
     width: 50px;
     height: 50px;
     background-color: white;
     border: 1px solid #3A5859;
     border-radius: 50%;
     margin: 20px;
-}
+    }
 
-.circle p {
+    .circle p {
     justify-content: center;
     font-size: 30px;
     font-weight: 900;
-}
+    }
 
-.active-item {
+    .active-item {
     color: #0940BF;
-}
+    }
 
-.active-item .step-header {
+    .active-item .step-header {
     font-weight: 700;
-}
+    }
 
-.step-header {
+    .step-header {
     font-size: larger;
     font-weight: 700;
-}
+    }
 
-.step-paragraph {
+    .step-paragraph {
     font-size: medium;
-}
+    }
 
-.step-text {
+    .step-text {
     text-align: left;
-}
+    }
 
-.row {
+    .row {
     display: flex;
     background-color: grey;
-}
+    }
 
-.search-container {
+    .search-container {
     font-family: "Work Sans", serif;
     height: 91px;
     margin: 50px auto;
+    margin-left: 15px;
+    width: 100%;
     background-color: #ECECEC;
-    display: flex;;
-    align-items: center;
-    justify-content: flex-end;
+    display: flex;
     padding: 5px;
     border-radius: 5px;
-}
+    align-items: center;
+    }
 
-.search-container input {
+    .search-container input {
     width: 60%;
     height: 40%;
     border: none;
     border-radius: 5px;
-}
+    }
 
-.search-button {
+    .search-button {
     width: 10%;
     height: 40%;
     color: white;
     background-color: #0940BF;
     border: none;
     border-radius: 5px;
-} 
+    } 
 
-.btn-group {
+    .btn-group {
     height: 40%;
     width: 30%;
     border: none;
     border-radius: 5px;
-}
+    }
 
-.btn.btn-secondary.btn-lg {
+    .btn.btn-secondary.btn-lg {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -109,19 +111,108 @@ p {
     color: black;
     font-size: medium;
     color: #3A5859;
-}
+    }
 
-.dropdown-toggle-split::after {
+    .dropdown-toggle-split::after {
     margin-left: 90%;
-}
+    }
 
-p.step-footer {
+    p.step-footer {
     color: #AB101A;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-}
+    }
 
-img {
+    img {
     margin-right: 7px;
-} 
+    } 
+
+    .middle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 15px;
+    }
+
+
+
+    .ee {
+    font-weight: 700;
+    }
+
+    .rectangles {
+    display: flex;
+    }
+
+    .rectangle-1 {
+    width: 5px;
+    height: 51px;
+    background-color: #EEA916;
+    border-radius: 5px 0 0 5px;
+    }
+
+    .rectangle-2 {
+    background-color: #FEF9EF;
+    height: 51px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #F7D794;
+    border-radius: 5px;
+    margin-left: 1px;
+    }
+
+    .rectangle-text {
+    margin-left: 10px;
+    }
+
+    .whoisandmed {
+    margin-top: 5px;
+    font-weight: 500;
+    text-decoration: underline;
+    }
+
+    .card-custom {
+    color: #524E4E;
+    max-width: 300px;
+    background-color: #f7fcf9;
+    border: 1px solid #cce3de;
+    padding: 15px;
+    height: 282px;
+    width: 303%;
+    }
+
+    .btn-green {
+    background-color: #14a06f;
+    color: white;
+    width: 100%;
+    }
+
+    .btn-green:hover {
+    background-color: #118b5d;
+    }
+
+    .text-small {
+    font-size: 0.9rem;
+    }
+
+    .text-muted-small {
+    font-size: 0.8rem;
+    color: #6c757d;
+    }
+
+    .fw-bold {
+        margin-top: 20px;
+    }
+
+    .remove-icon {
+    color: #dc3545;
+    cursor: pointer;
+    }
+
+    .btn.btn-green {
+        margin-top: 5%;
+    }
+
+    

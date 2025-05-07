@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-xxl text-center">
+        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+
+                <li class="breadcrumb-item active-item">
+                    <div class="circle">
+                        <p>1</p>
+                    </div>
+                    <div class="step-text">
+                        <p class="step-header">OTSI</p>
+                        <p class="step-paragraph">Vali sobivad domeeninimed</p>
+                    </div>
+                </li>
+                <li class="breadcrumb-item">
+                    <div class="circle">
+                        <p>2</p>
+                    </div>
+                    <div class="step-text">
+                        <p class="step-header">KONTAKTANDMED</p>
+                        <p class="step-paragraph">Sisesta või kontrolli üle kontaktandmed</p>
+                    </div>
+                </li>
+                <li class="breadcrumb-item">
+                    <div class="circle">
+                        <p>3</p>
+                    </div>
+                    <div class="step-text">
+                        <p class="step-header">MAKSA</p>
+                        <p class="step-paragraph">...ja hakka kasutama</p>
+                    </div>
+                </li>
+
+            </ol>
+        </nav>
+    </div>
+
+    <!-- Maksmise blokk -->
+    <div class="payment-container bg-white rounded shadow-sm p-4">
+        <h4 class="text-center mb-4">MAKSMINE</h4>
+        <div class="d-flex justify-content-between mb-3">
+            <div>Arve nr. <strong>#12345678</strong></div>
+            <div>Arve summa: <strong>10.98 €</strong> (<a href="#">vaata arvet</a>)</div>
+        </div>
+        <hr>
+        <p><strong>Tasumisele kuulub:</strong> 10.98 €</p>
+        <p class="text-muted mb-4">Palun vali makseviis. Kui kasutad pangalinki või krediitkaardimakset, läheb tellimus
+            kohe täitmisele.</p>
+
+        <h6>Pangalink</h6>
+        <div class="mb-3 d-flex flex-wrap gap-2">
+            <button class="btn btn-outline-secondary">Swedbank</button>
+            <button class="btn btn-outline-secondary">SEB</button>
+            <button class="btn btn-outline-secondary">LHV</button>
+            <button class="btn btn-outline-secondary">Luminor</button>
+            <button class="btn btn-outline-secondary">Coop</button>
+            <button class="btn btn-outline-secondary">Revolut</button>
+        </div>
+
+        <h6>Krediitkaart</h6>
+        <div class="mb-3 d-flex gap-2">
+            <button class="btn btn-outline-primary">Visa</button>
+            <button class="btn btn-outline-warning">Mastercard</button>
+        </div>
+
+        <h6>Paypal</h6>
+        <div class="mb-3 d-flex">
+            <button class="btn btn-outline-info">PayPal</button>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-success px-4">MINE MAKSMA</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
